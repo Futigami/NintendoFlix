@@ -1,0 +1,44 @@
+:root{
+    --vermelho: #E50914;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 69, 69);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman';
+    font-size: 33px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--vermelho);
+}
+
+.container{
+    margin-left: 30px;
+}
